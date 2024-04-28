@@ -1,0 +1,238 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url(images/output-onlinepngtools.png);
+    background-position: center;
+    background-size: contain;
+    background-blend-mode: normal;
+}
+
+.alert {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header img {
+    margin-top: 2rem;
+    width: 29rem;
+}
+
+.info-img {
+    width: 22rem;
+    transition: all 0.3s;
+}
+
+
+. article:hover {
+    transform: scale(1.2) translate(0, -15%);
+padding: 3rem;
+margin: 5rem;
+    transition: all 0.5s;
+}
+
+.header-logo {
+    display: flex;
+    flex: 1 2 auto;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    header img {
+        width: 20rem;
+        /* Adjust the width as needed for smaller screens */
+    }
+
+    .info-img {
+        width: 13rem;
+    }
+
+    .content p {
+        font-size: .9rem !important;
+    }
+
+    .content h2 {
+        font-size: 1.5rem !important;
+        text-align: center;
+    }
+
+}
+
+/* Adjust logo size for even smaller screens */
+@media screen and (max-width: 480px) {
+
+
+    header img {
+        width: 15rem;
+        /* Adjust the width as needed for even smaller screens */
+    }
+
+    .info-img {
+        width: 9.5rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .content p {
+        font-size: .5rem !important;
+    }
+
+    .content h2 {
+        font-size: 1rem !important;
+        text-align: center;
+    }
+}
+
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 2.5rem 0;
+    list-style: none;
+    width: 100%;
+    min-width: 100vw;
+    height: fit-content;
+    min-height: 6vh;
+    background-color: rgb(238, 238, 238);
+}
+
+nav ul li {
+    margin: 0 6rem;
+}
+
+nav ul li a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    font-size: 1.6rem;
+    color: black;
+}
+
+#promotion-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#promotion-heading {
+    margin: 3rem 0 0.5rem 0;
+    text-align: center;
+    font-size: 3vw;
+}
+
+#promotion-rng {
+
+    height: 45vw;
+    width: 45vw;
+}
+
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+#promotion-desc {
+    display: flex;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(235, 239, 243, 0.507);
+    color: black;
+    font-size: 2vw;
+
+}
+
+#imager-desc {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#promotion-desc+button {
+    background-color: rgb(240, 233, 209);
+    border: none;
+    height: 4vw;
+    box-shadow: 7px 6px 17px -6px #000000;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-size: 2.3vw;
+    flex-shrink: 3;
+}
+
+#promotion-desc+button:hover {
+    transform: scale(1.5) translate(-25%, -25%);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4rem;
+    margin-bottom: 20rem;
+}
+
+.article {
+    margin: 0 3rem;
+    transition: all 0.5s;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.line {
+    border-top: 1px solid black;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    margin-top: 3rem;
+    width: 100vw;
+}
+
+#footer-logo img {
+    float: left;
+    width: 16vw;
+    max-width: 12rem;
+    min-width: 5rem;
+}
+
+#copyrights>p {
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    color: rgb(116, 116, 116);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
